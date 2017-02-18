@@ -13,7 +13,10 @@ var About = React.createClass({
 */
 var About = (props) => {
   return (
-    <h3>About Component</h3>
+    <div>
+      <h3>About Page</h3>
+      <p>Welcome to about Page</p>
+    </div>
   )
 };
 module.exports = About;
